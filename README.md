@@ -23,13 +23,8 @@ The primary goal of this notebook is to build a predictive model that can accura
 
 - The model was trained for a maximum of 100 epochs.
 - Training data was divided into batches of 64 samples and shuffled during training.
-- The training loop monitored the training loss and applied early stopping if no improvement occurred.
-- The training loss plot shows the progress of the loss over epochs.
+
 
 ### R^2 Score
 
-- After training, the model was evaluated on a separate test dataset.
 - The model achieved an R^2 score of 0.782 on the test data.
-- An R^2 score of 0.782 indicates that the model explains a substantial portion of the variance in LOS predictions, suggesting good predictive performance.
-
-In conclusion, this version (v1) of the neural network model demonstrates promising results with an R^2 score of 0.782, indicating its effectiveness in predicting Length of Stay (LOS) for hospital patients.
